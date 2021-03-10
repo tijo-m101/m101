@@ -1,0 +1,20 @@
+{
+  "name": "m101",
+  "version": "0.0.1",
+  "description": "The website coded by Timo Sarkar and Joshua Sanchez for the M101",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./backend/index.js"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "Timo Sarkar",
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
