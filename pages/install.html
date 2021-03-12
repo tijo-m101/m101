@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Atom Editor -Home</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles/main.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+      <div id="navbar">
+        <a class="active" href="javascript:void(0)">Home</a>
+        <a href="javascript:void(0)">News</a>
+        <a href="javascript:void(0)">Contact</a>
+      </div>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:50px">Atom Editor </h1>
+          <p>Tremendous Hero tag</p>
+          <button class="buton">Sample</button>
+        </div>
+      </div>
+      <section class="main">
+        <div class="arts">
+          <article class="Person_1">
+            <h2>sds
+              text
+            </h2>
+          </article>
+          <article class="Person_2">
+            <p>
+              asas
+              text
+            </p>
+          </article>
+          <br>
+          <p style="font-style: italic;">text</p>
+        </div>
+        <section class="gray">
+          <br>
+          <article>
+            <h2 style="text-align: center;">title</h2>
+          </article>
+          <article>
+            <p style="text-align: center;">sample</p>
+            <br>
+          </article>
+        </section>
+        <section class="dark">
+          <br>
+          <article>
+            <p style="text-align: center;">sample</p>
+            <br>
+          </article>
+        </section>
+        <section class="gray">
+          <br>
+            <h2 style="text-align: center;">title</h2>
+          </article>
+          <article>
+            <p style="text-align: center;">sample</p>
+            <br>
+          </article>
+        </section>
+      </section>
+      <div class="cookie-banner" style="display: none;">
+        <p>
+          By using our website, you agree to our
+          <a href="insert-link">cookie policy</a>
+        </p>
+        <button class="close">&times;</button>
+      </div>
+      <footer>
+        <p>Built with <span class="hearth">❤</span> by <a class="aut" href="https://timo-cmd.github.io">Timo Sarkar</a> and Joshua Sanchez</p>
+      </footer>
+      <script>
+        if (localStorage.getItem('cookieSeen') != 'shown') {
+          $('.cookie-banner').delay(2000).fadeIn();
+          localStorage.setItem('cookieSeen','shown')
+        };
+
+        $('.close').click(function() {
+          $('.cookie-banner').fadeOut();
+        })
+      </script>
+    </body>
+  </html>
